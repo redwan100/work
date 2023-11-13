@@ -210,3 +210,20 @@ img {
   align-items: center;
   gap: 1rem;
 }
+
+/* responsiv breakpoint */
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .listing_card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
